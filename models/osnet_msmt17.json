@@ -1,0 +1,20 @@
+{
+  "architecture": "osnet_x0_25",
+  "height": 256,
+  "width": 128,
+  "embedding_dim": 512,
+  "mean_255": [
+    123.675,
+    116.28,
+    103.53
+  ],
+  "std_255": [
+    58.395,
+    57.12,
+    57.375
+  ],
+  "checkpoint_sha256": "6f57607fed9f502b9efed546108132ee715df5a5b6e6932c6269bacb47f59f99",
+  "onnx_sha256": "537a3857682c0f7fc30778b4a3d4289c5fc07ef954acd86264360221f7db812e",
+  "input_contract": "RGB_UINT8_0_255_NORMALIZATION_IN_HEF",
+  "hef_sha256": "0c0d550b4f0b11295a367589036c73981af52a88f68a6d83e064d39a6b031dd5"
+}

@@ -1,0 +1,12 @@
+# Application dependencies; install board-specific Hailo/RKNN runtimes separately.
+# Keep an already validated board environment rather than blindly upgrading it.
+numpy>=1.24,<3
+opencv-python>=4.8
+onnxruntime>=1.16
+PyYAML>=6
+easydict>=1.10
+yacs==0.1.8
+numba>=0.58
+# Supplies dependencies; this project's local boxmot/ copy is retained at runtime.
+boxmot==16.0.8
+ultralytics
